@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  padding: 25px 0;
+  padding: 10px 0;
   top: 40px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 50px;
 }
 
 @media (max-width: 992px) {
@@ -448,7 +448,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("../img/main-banner-bg.jpg") top left;
+  background: url("../img/mainx.jpg") top left;
   background-size: cover;
   position: relative;
 }
@@ -617,7 +617,7 @@ section {
 
 @media (min-width: 1024px) {
   .section-title p {
-    width: 50%;
+    width: 80%;
   }
 }
 
@@ -900,12 +900,14 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  text-align: center;
+  text-align: left;
+  width: 640px;
   border: 1px solid #e2eefd;
-  padding: 80px 20px;
+  padding: 40px;
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
+
 
 .services .icon-box .icon {
   margin: 0 auto;
@@ -934,7 +936,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #222222;
+  color: black;
   transition: ease-in-out 0.3s;
 }
 
@@ -942,6 +944,7 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  color: black;
 }
 
 .services .icon-box:hover {
